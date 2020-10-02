@@ -1,0 +1,8 @@
+name: 'Check pom.xml uprev'
+description: 'Checks if the <version> tag in the pom.xml has been incremented'
+inputs:
+  repo-token:
+    description: 'The GITHUB_TOKEN secret to grant access to the repository'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

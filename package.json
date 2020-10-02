@@ -1,0 +1,29 @@
+{
+  "name": "check-pom-uprev-action",
+  "version": "1.0.0",
+  "description": "A GitHub action that checks if the pom.xml's &lt;version> tag has been incremented",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/invitation-homes/check-pom-uprev-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/invitation-homes/check-pom-uprev-action/issues"
+  },
+  "homepage": "https://github.com/invitation-homes/check-pom-uprev-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0",
+    "compare-versions": "^3.6.0",
+    "fast-xml-parser": "^3.17.4"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.24.1"
+  }
+}
