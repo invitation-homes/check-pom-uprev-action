@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/invitation-homes/check-pom-uprev-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^4.0.0",
     "compare-versions": "^3.6.0",
     "fast-xml-parser": "^3.17.4"
